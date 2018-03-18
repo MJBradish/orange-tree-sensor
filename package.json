@@ -1,7 +1,7 @@
 {
   "name": "orange-tree-sensor",
   "version": "1.0.0",
-  "description": "Node project to control rapsberry pi with moisture sensor",
+  "description": "Node project to control raspberry pi with moisture sensor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
