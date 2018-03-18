@@ -1,0 +1,24 @@
+{
+  "name": "orange-tree-sensor",
+  "version": "1.0.0",
+  "description": "Node project to control rapsberry pi with moisture sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJBradish/orange-tree-sensor.git"
+  },
+  "keywords": [
+    "orange",
+    "soil",
+    "tree"
+  ],
+  "author": "MJBradish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJBradish/orange-tree-sensor/issues"
+  },
+  "homepage": "https://github.com/MJBradish/orange-tree-sensor#readme"
+}
