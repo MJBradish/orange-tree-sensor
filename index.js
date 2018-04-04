@@ -1,3 +1,6 @@
 const Sensor = require ("./sensor");
-const ben = new Sensor ("Moisture sensor");
-const charles = new Sensor ("Temperature sensor");
+const ReadingA = new Sensor ("Moisture sensor");
+const ReadingB = new Sensor ("Temperature sensor");
+console.log(ReadingA.getType ())
+console.log(ReadingB.getType ())
+console.log(ReadingA.read ())
