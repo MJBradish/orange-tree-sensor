@@ -1,6 +1,12 @@
 const Sensor = require ("./sensor");
-const ReadingA = new Sensor ("Moisture sensor");
-const ReadingB = new Sensor ("Temperature sensor");
-console.log(ReadingA.getType ())
-console.log(ReadingB.getType ())
-console.log(ReadingA.read ())
+const moisture = new Sensor ("moisture");
+const temperature = new Sensor ("temperature");
+console.log(moisture.getType ())
+console.log(temperature.getType ())
+
+async function takereadings (){
+  let moisturereading = await moisture.read ()
+  let temperaturereading = await temperature.read ()
+  console.log(moisturereading, "\n",temperaturereading);
+}
+takereadings ()

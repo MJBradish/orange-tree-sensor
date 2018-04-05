@@ -1,3 +1,6 @@
+const environment = require ("../environment")
+
+
 class Sensor {
   constructor (type){
     console.log("hello, my name is " + type);
@@ -10,7 +13,7 @@ class Sensor {
 
   // return reading
   read (){
-    return 5
+    return environment (this.type)
   }
 }
 
