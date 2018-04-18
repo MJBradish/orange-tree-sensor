@@ -1,6 +1,7 @@
 const PythonShell = require('python-shell');
 const SCRIPTS = {
   moisture : "scripts/moisture.py",
+  wetness : "scripts/wetness.py",
   light : "scripts/light.py",
   temperature : "scripts/temperature.py",
   pressure : "scripts/pressure.py",
